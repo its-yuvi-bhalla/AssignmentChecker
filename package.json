@@ -1,5 +1,4 @@
 {
-  "type": "commonjs",
   "devDependencies": {
     "cypress": "^14.0.1"
   },
@@ -170,7 +169,7 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "npx cypress run --"
+    "test": "npx cypress open"
   },
   "keywords": [],
   "author": "",
