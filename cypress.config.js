@@ -3,7 +3,16 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      // Node event listeners if needed
+    },
+    supportFile: false, 
+    specPattern: "cypress/e2e/**/*.cy.js", 
+  },
+  component: {
+    devServer: {
+      framework: "react",
+      bundler: "webpack",
     },
   },
+  experimentalFetchPolyfill: true
 });
