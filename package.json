@@ -170,7 +170,7 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress run --spec 'cypress/e2e/assignmentChecker.cy.js'"
   },
   "keywords": [],
   "author": "",
