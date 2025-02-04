@@ -28,4 +28,4 @@ jobs:
     # Step 4: Run the assignment checker script
     - name: Run Assignment Checker
       run: |
-        node scripts/checkAssignments.js
+        node cypress/e2e/assignmentChecker.cy.js
