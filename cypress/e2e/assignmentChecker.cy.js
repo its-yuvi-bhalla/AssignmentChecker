@@ -1,6 +1,6 @@
-import selectors from '../fixtures/selectors.json' assert { type: 'json' };
-import label from '../fixtures/label.json' assert { type: 'json' };
-import usernames from '../../usernames/usernames.json' assert { type: 'json' };
+import selectors from '../fixtures/selectors.json' 
+import label from '../fixtures/label.json' 
+import usernames from '../../usernames/usernames.json' 
 
 
 /**
