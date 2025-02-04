@@ -19,7 +19,7 @@ const usernames = require('../../usernames/usernames.json');
  */
 
 describe('Check Assignments', () => {
-  const week = 'week-2'
+  const week = 'week-3'
 
   beforeEach('Visiting the Website',()=>{
     // visiting website before each username Execution
