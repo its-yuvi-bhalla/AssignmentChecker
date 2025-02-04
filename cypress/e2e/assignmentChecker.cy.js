@@ -1,7 +1,6 @@
-import selectors from '../fixtures/selectors.json' assert { type: 'json' };
-import label from '../fixtures/label.json' assert { type: 'json' };
-import usernames from '../../usernames/usernames.json' assert { type: 'json' };
-
+const selectors = require('../fixtures/selectors.json');
+const label = require('../fixtures/label.json');
+const usernames = require('../../usernames/usernames.json');
 
 /**
  * @description
